@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>yilongdong-blog</title>
+  
+  <subtitle>星川的学习笔记</subtitle>
+  <link href="https://www.yilongdong.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.yilongdong.top/"/>
+  <updated>2022-10-30T02:54:58.936Z</updated>
+  <id>https://www.yilongdong.top/</id>
+  
+  <author>
+    <name>yilongdong</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test_site</title>
+    <link href="https://www.yilongdong.top/2022/10/30/test-site/"/>
+    <id>https://www.yilongdong.top/2022/10/30/test-site/</id>
+    <published>2022-10-30T02:54:58.000Z</published>
+    <updated>2022-10-30T02:54:58.936Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.yilongdong.top/2022/10/30/hello-world/"/>
+    <id>https://www.yilongdong.top/2022/10/30/hello-world/</id>
+    <published>2022-10-30T02:50:19.409Z</published>
+    <updated>2022-10-30T02:50:19.409Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
