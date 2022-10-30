@@ -6,7 +6,7 @@
   <link href="https://www.yilongdong.top/atom.xml" rel="self"/>
   
   <link href="https://www.yilongdong.top/"/>
-  <updated>2022-10-30T02:54:58.936Z</updated>
+  <updated>2022-10-30T15:28:35.149Z</updated>
   <id>https://www.yilongdong.top/</id>
   
   <author>
@@ -17,36 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test_site</title>
-    <link href="https://www.yilongdong.top/2022/10/30/test-site/"/>
-    <id>https://www.yilongdong.top/2022/10/30/test-site/</id>
-    <published>2022-10-30T02:54:58.000Z</published>
-    <updated>2022-10-30T02:54:58.936Z</updated>
+    <title>Javascript学习 基础</title>
+    <link href="https://www.yilongdong.top/2022/10/30/javascript-xue-xi-ji-chu/"/>
+    <id>https://www.yilongdong.top/2022/10/30/javascript-xue-xi-ji-chu/</id>
+    <published>2022-10-30T15:10:11.000Z</published>
+    <updated>2022-10-30T15:28:35.149Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Javascript基础知识&lt;/p&gt;</summary>
     
     
     
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
     
+    
+    <category term="Javascript" scheme="https://www.yilongdong.top/tags/Javascript/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://www.yilongdong.top/2022/10/30/hello-world/"/>
-    <id>https://www.yilongdong.top/2022/10/30/hello-world/</id>
-    <published>2022-10-30T02:50:19.409Z</published>
-    <updated>2022-10-30T02:50:19.409Z</updated>
+    <title>搭建个人博客</title>
+    <link href="https://www.yilongdong.top/2022/10/30/da-jian-ge-ren-bo-ke/"/>
+    <id>https://www.yilongdong.top/2022/10/30/da-jian-ge-ren-bo-ke/</id>
+    <published>2022-10-30T02:54:58.000Z</published>
+    <updated>2022-10-30T15:28:33.393Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;博客制作教程：typora图床 + 域名与github部署 + 博客样式&lt;/p&gt;</summary>
     
     
     
+    
+    <category term="教程" scheme="https://www.yilongdong.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
