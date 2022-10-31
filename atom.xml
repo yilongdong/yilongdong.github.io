@@ -6,7 +6,7 @@
   <link href="https://www.yilongdong.top/atom.xml" rel="self"/>
   
   <link href="https://www.yilongdong.top/"/>
-  <updated>2022-10-30T15:28:35.149Z</updated>
+  <updated>2022-10-31T14:24:42.428Z</updated>
   <id>https://www.yilongdong.top/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CMake Cookbook 第一章：从可执行文件到库</title>
+    <link href="https://www.yilongdong.top/2022/10/31/cmake-cong-ke-zhi-xing-wen-jian-dao-ku/"/>
+    <id>https://www.yilongdong.top/2022/10/31/cmake-cong-ke-zhi-xing-wen-jian-dao-ku/</id>
+    <published>2022-10-31T13:15:36.000Z</published>
+    <updated>2022-10-31T14:24:42.428Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;CMake Cookbook 第一章：从可执行文件到库&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++设计模式</title>
+    <link href="https://www.yilongdong.top/2022/10/31/c-she-ji-mo-shi/"/>
+    <id>https://www.yilongdong.top/2022/10/31/c-she-ji-mo-shi/</id>
+    <published>2022-10-31T10:10:23.000Z</published>
+    <updated>2022-10-31T10:12:08.322Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;中介者模式&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
   
   <entry>
     <title>Javascript学习 基础</title>
@@ -40,7 +82,7 @@
     <link href="https://www.yilongdong.top/2022/10/30/da-jian-ge-ren-bo-ke/"/>
     <id>https://www.yilongdong.top/2022/10/30/da-jian-ge-ren-bo-ke/</id>
     <published>2022-10-30T02:54:58.000Z</published>
-    <updated>2022-10-30T15:52:02.838Z</updated>
+    <updated>2022-10-30T15:53:59.205Z</updated>
     
     
     <summary type="html">&lt;p&gt;博客制作教程：typora图床 + 域名与github部署 + 博客样式&lt;/p&gt;</summary>
