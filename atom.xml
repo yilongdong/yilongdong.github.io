@@ -6,7 +6,7 @@
   <link href="https://www.yilongdong.top/atom.xml" rel="self"/>
   
   <link href="https://www.yilongdong.top/"/>
-  <updated>2022-11-03T02:26:01.457Z</updated>
+  <updated>2022-11-03T14:25:50.659Z</updated>
   <id>https://www.yilongdong.top/</id>
   
   <author>
@@ -15,6 +15,63 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git rebase使用</title>
+    <link href="https://www.yilongdong.top/2022/11/03/git-rebase-shi-yong/"/>
+    <id>https://www.yilongdong.top/2022/11/03/git-rebase-shi-yong/</id>
+    <published>2022-11-03T14:10:26.000Z</published>
+    <updated>2022-11-03T14:25:50.659Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;code&gt;git rebase&lt;/code&gt;法则：永远不要在公共分支上使用它。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="git" scheme="https://www.yilongdong.top/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git commit规范</title>
+    <link href="https://www.yilongdong.top/2022/11/03/git-commit-gui-fan/"/>
+    <id>https://www.yilongdong.top/2022/11/03/git-commit-gui-fan/</id>
+    <published>2022-11-03T13:12:55.000Z</published>
+    <updated>2022-11-03T14:01:10.110Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="git" scheme="https://www.yilongdong.top/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git worktree使用</title>
+    <link href="https://www.yilongdong.top/2022/11/03/git-worktree-shi-yong/"/>
+    <id>https://www.yilongdong.top/2022/11/03/git-worktree-shi-yong/</id>
+    <published>2022-11-03T08:24:51.000Z</published>
+    <updated>2022-11-03T14:25:46.351Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;使用&lt;code&gt;git worktree&lt;/code&gt;同时在多个 branch 上工作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="git" scheme="https://www.yilongdong.top/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>clang 编译链接</title>
