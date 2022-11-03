@@ -4,15 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Javascript学习 基础, yilongdong-blog">
-    <meta name="description" content="Javascript基础知识
+    <meta name="keywords" content="clang 编译链接, yilongdong-blog">
+    <meta name="description" content="clang编译与搜索路径
 
 
 
-
-
-javascript mdn
-">
+如果在mac上自己编译了clang,llvm然后安装了，可能会出现找不到文件的错误。
+可以在~/.zshrc中加入
+alias clang++=&#39;clang++ -isysroot `xcrun --show">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -24,7 +23,7 @@ javascript mdn
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Javascript学习 基础 | yilongdong-blog</title>
+    <title>clang 编译链接 | yilongdong-blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -322,12 +321,12 @@ javascript mdn
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Javascript学习 基础</h1>
+                    <h1 class="description center-align post-title">clang 编译链接</h1>
                 </div>
             </div>
         </div>
@@ -351,8 +350,8 @@ javascript mdn
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Javascript/">
-                                <span class="chip bg-color">Javascript</span>
+                            <a href="/tags/clang/">
+                                <span class="chip bg-color">clang</span>
                             </a>
                         
                     </div>
@@ -376,21 +375,21 @@ javascript mdn
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-10-30
+                    2022-11-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-10-30
+                    2022-11-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    7
+                    430
                 </div>
                 
 
@@ -415,13 +414,70 @@ javascript mdn
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Javascript基础知识</p>
+                <p>clang编译与搜索路径</p>
 <span id="more"></span>
 <!-- markdownlint-disable MD041 MD002-->
 
+<p>如果在mac上自己编译了clang,llvm然后安装了，可能会出现找不到文件的错误。</p>
+<p>可以在<code>~/.zshrc</code>中加入</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">alias</span> clang+<span class="token operator">+=</span><span class="token string">'clang++ -isysroot `xcrun --show-sdk-path` '</span>
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">clang</span><span class="token operator">=</span><span class="token string">'clang -isysroot `xcrun --show-sdk-path` '</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
-<p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/A_first_splash">javascript mdn</a></p>
+
+
+
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">xx.c <span class="token comment"># 源文件</span>
+xx.i <span class="token comment"># 预处理后文件</span>
+xx.s <span class="token comment"># 汇编代码</span>
+xx.o <span class="token comment"># 目标文件，引用的其他文件的函数地址尚未定义</span>
+xx.out <span class="token comment"># 可执行文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>编译预处理</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">clang <span class="token parameter variable">-E</span> xx.c <span class="token comment"># 进行预处理</span>
+cpp xx.c <span class="token comment"># 编译预处理命令程序是cpp，也可以直接使用cpp进行预处理</span>
+clang <span class="token parameter variable">-E</span> <span class="token parameter variable">-c</span> xx.i xx.c <span class="token comment"># 保存到文件</span>
+clang <span class="token parameter variable">-o</span> xx.i xx.c <span class="token comment"># 保存到文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>生成汇编</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">clang <span class="token parameter variable">-S</span> xx.c
+clang <span class="token parameter variable">-S</span> <span class="token parameter variable">-o</span> xx.s xx.c<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>生成.o文件</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">clang <span class="token parameter variable">-c</span> xx.c<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>保存中间步骤</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">clang -save-temps xx.c
+<span class="token comment"># 会生成xx.i xx.s xx.o a.out</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+
+<h2 id="搜索路径设置"><a href="#搜索路径设置" class="headerlink" title="搜索路径设置"></a>搜索路径设置</h2><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;xxx&gt;</span> <span class="token comment">// 只在默认的系统包含路径搜索头文件</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"xxx"</span> <span class="token comment">// 现在当前目录搜索头文件</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">clang <span class="token parameter variable">-Ixxx</span> <span class="token comment"># 增加头文件搜索目录</span>
+clang <span class="token parameter variable">-include</span> /xxx/xx.h <span class="token comment"># 增加头文件</span>
+clang <span class="token parameter variable">-Lxxx</span> <span class="token comment"># 增加库搜索目录</span>
+clang <span class="token parameter variable">-lxx</span> <span class="token comment"># 增加库文件  libxx.后缀</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h2 id="常用编译选项"><a href="#常用编译选项" class="headerlink" title="常用编译选项"></a>常用编译选项</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token parameter variable">-Wall</span> <span class="token builtin class-name">:</span> 显示所有常用的编译警告信息。
+<span class="token parameter variable">-W</span> <span class="token builtin class-name">:</span> 显示更多的常用编译警告，如：变量未使用、一些逻辑错误。
+<span class="token parameter variable">-Werror</span> <span class="token builtin class-name">:</span> 将警告升级为错误
+<span class="token parameter variable">-fPIC</span> <span class="token builtin class-name">:</span> 共享库应创建位置无关代码
+<span class="token parameter variable">-v</span> <span class="token builtin class-name">:</span> 打印编译一个文件的所有步骤
+<span class="token parameter variable">-D</span> <span class="token builtin class-name">:</span> -D<span class="token operator">&lt;</span>macroname<span class="token operator">&gt;=</span><span class="token operator">&lt;</span>value<span class="token operator">&gt;</span> 定义宏
+<span class="token parameter variable">-U</span> <span class="token builtin class-name">:</span> undef
+@xx <span class="token builtin class-name">:</span> 从文件xx中读取参数
+<span class="token parameter variable">-std</span> <span class="token builtin class-name">:</span> <span class="token parameter variable">-std</span><span class="token operator">=</span>c++11/c++14/c++17/c90/c89/
+<span class="token parameter variable">-static</span> <span class="token parameter variable">-shared</span>
+-ccc-print-phases <span class="token builtin class-name">:</span> 打印编译阶段
+-L<span class="token variable"><span class="token variable">$(</span>brew <span class="token parameter variable">--prefix</span> gperftools<span class="token variable">)</span></span>/lib<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><a target="_blank" rel="noopener" href="https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html">其他参数</a></p>
 
                 
             </div>
@@ -448,7 +504,7 @@ javascript mdn
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yilongdong.top/2022/10/30/javascript-xue-xi-ji-chu/">https://www.yilongdong.top/2022/10/30/javascript-xue-xi-ji-chu/</a>
+                    <a href="https://www.yilongdong.top/2022/11/03/clang-bian-yi-lian-jie/">https://www.yilongdong.top/2022/11/03/clang-bian-yi-lian-jie/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -486,8 +542,8 @@ javascript mdn
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Javascript/">
-                                    <span class="chip bg-color">Javascript</span>
+                                <a href="/tags/clang/">
+                                    <span class="chip bg-color">clang</span>
                                 </a>
                             
                         </div>
@@ -566,29 +622,80 @@ javascript mdn
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/10/31/cmake-cookbook-di-yi-zhang-cong-ke-zhi-xing-wen-jian-dao-ku/">
+                <a href="/2022/11/03/clang-bian-yi-lian-jie/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="CMake Cookbook 第一章：从可执行文件到库">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="clang 编译链接">
                         
-                        <span class="card-title">CMake Cookbook 第一章：从可执行文件到库</span>
+                        <span class="card-title">clang 编译链接</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            CMake Cookbook 第一章：从可执行文件到库
+                            clang编译与搜索路径
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-31
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/clang/">
+                        <span class="chip bg-color">clang</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/10/31/cmake-cookbook-di-er-zhang-jian-ce-huan-jing/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="CMake Cookbook 第二章: 检测环境">
+                        
+                        <span class="card-title">CMake Cookbook 第二章: 检测环境</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            CMake Cookbook 第二章: 检测环境
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-31
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -606,51 +713,6 @@ javascript mdn
                     
                     <a href="/tags/CMake/">
                         <span class="chip bg-color">CMake</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/10/30/da-jian-ge-ren-bo-ke/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="搭建个人博客">
-                        
-                        <span class="card-title">搭建个人博客</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            博客制作教程：typora图床 + 域名与github部署 + 博客样式
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-30
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            yilongdong
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">教程</span>
                     </a>
                     
                 </div>

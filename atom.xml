@@ -6,7 +6,7 @@
   <link href="https://www.yilongdong.top/atom.xml" rel="self"/>
   
   <link href="https://www.yilongdong.top/"/>
-  <updated>2022-10-31T14:53:40.028Z</updated>
+  <updated>2022-11-03T02:26:01.457Z</updated>
   <id>https://www.yilongdong.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>clang 编译链接</title>
+    <link href="https://www.yilongdong.top/2022/11/03/clang-bian-yi-lian-jie/"/>
+    <id>https://www.yilongdong.top/2022/11/03/clang-bian-yi-lian-jie/</id>
+    <published>2022-11-03T01:02:21.000Z</published>
+    <updated>2022-11-03T02:26:01.457Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;clang编译与搜索路径&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="clang" scheme="https://www.yilongdong.top/tags/clang/"/>
+    
+  </entry>
   
   <entry>
     <title>CMake Cookbook 第二章: 检测环境</title>
