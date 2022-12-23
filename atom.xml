@@ -6,7 +6,7 @@
   <link href="https://www.yilongdong.top/atom.xml" rel="self"/>
   
   <link href="https://www.yilongdong.top/"/>
-  <updated>2022-11-03T14:25:50.659Z</updated>
+  <updated>2022-11-26T01:59:20.071Z</updated>
   <id>https://www.yilongdong.top/</id>
   
   <author>
@@ -17,9 +17,282 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>空域图像增强技术</title>
+    <link href="https://www.yilongdong.top/post/kong-yu-tu-xiang-zeng-qiang-ji-zhu.html"/>
+    <id>https://www.yilongdong.top/post/kong-yu-tu-xiang-zeng-qiang-ji-zhu.html</id>
+    <published>2022-11-23T02:37:43.000Z</published>
+    <updated>2022-11-26T01:59:20.071Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;背景，直方图，算术逻辑操作，平滑滤波器，锐化滤波器，混合空间增强，图像素描效果&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="课程" scheme="https://www.yilongdong.top/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="图形图像处理" scheme="https://www.yilongdong.top/tags/%E5%9B%BE%E5%BD%A2%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1数字图像处理-基础</title>
+    <link href="https://www.yilongdong.top/post/1-shu-zi-tu-xiang-chu-li-ji-chu.html"/>
+    <id>https://www.yilongdong.top/post/1-shu-zi-tu-xiang-chu-li-ji-chu.html</id>
+    <published>2022-11-21T11:13:42.000Z</published>
+    <updated>2022-11-21T11:45:52.177Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;!-- markdownlint-disable MD041</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1数字图像处理-绪论</title>
+    <link href="https://www.yilongdong.top/post/1-shu-zi-tu-xiang-chu-li-xu-lun.html"/>
+    <id>https://www.yilongdong.top/post/1-shu-zi-tu-xiang-chu-li-xu-lun.html</id>
+    <published>2022-11-21T11:07:31.000Z</published>
+    <updated>2022-11-21T11:07:56.645Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="课程" scheme="https://www.yilongdong.top/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="数字图像处理" scheme="https://www.yilongdong.top/tags/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java Basics</title>
+    <link href="https://www.yilongdong.top/post/java-basics.html"/>
+    <id>https://www.yilongdong.top/post/java-basics.html</id>
+    <published>2022-11-15T03:13:16.000Z</published>
+    <updated>2022-11-15T06:01:34.755Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;The-Java-Programming-Language-and-the-Java-Platform&quot;&gt;&lt;a href=&quot;#The-Java-Programming-Language-and-the-Java-Platform&quot; class=&quot;headerlink&quot; title=&quot;The Java Programming Language and the Java Platform&quot;&gt;&lt;/a&gt;The Java Programming Language and the Java Platform&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="https://www.yilongdong.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式-组件协作</title>
+    <link href="https://www.yilongdong.top/post/she-ji-mo-shi-zu-jian-xie-zuo.html"/>
+    <id>https://www.yilongdong.top/post/she-ji-mo-shi-zu-jian-xie-zuo.html</id>
+    <published>2022-11-13T11:51:07.000Z</published>
+    <updated>2022-11-13T11:51:07.833Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>银发经济的黄金期--社会经济如何迎接老龄化时代的到来</title>
+    <link href="https://www.yilongdong.top/post/yin-fa-jing-ji-de-huang-jin-qi-she-hui-jing-ji-ru-he-ying-jie-lao-ling-hua-shi-dai-de-dao-lai.html"/>
+    <id>https://www.yilongdong.top/post/yin-fa-jing-ji-de-huang-jin-qi-she-hui-jing-ji-ru-he-ying-jie-lao-ling-hua-shi-dai-de-dao-lai.html</id>
+    <published>2022-11-12T11:32:09.000Z</published>
+    <updated>2022-11-12T11:33:12.905Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="老龄化" scheme="https://www.yilongdong.top/tags/%E8%80%81%E9%BE%84%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust安装</title>
+    <link href="https://www.yilongdong.top/post/rust-an-zhuang.html"/>
+    <id>https://www.yilongdong.top/post/rust-an-zhuang.html</id>
+    <published>2022-11-09T03:05:56.000Z</published>
+    <updated>2022-11-09T03:05:56.186Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2.3 cmake主要语法 属性与变量</title>
+    <link href="https://www.yilongdong.top/post/2-3-cmake-zhu-yao-yu-fa-shu-xing-yu-bian-liang.html"/>
+    <id>https://www.yilongdong.top/post/2-3-cmake-zhu-yao-yu-fa-shu-xing-yu-bian-liang.html</id>
+    <published>2022-11-08T03:36:06.000Z</published>
+    <updated>2022-11-08T03:58:55.440Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="cmake" scheme="https://www.yilongdong.top/tags/cmake/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cmake系统学习:2.2 cmake主要语法 变量与缓存</title>
+    <link href="https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-2-2-cmake-zhu-yao-yu-fa-bian-liang-yu-huan-cun.html"/>
+    <id>https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-2-2-cmake-zhu-yao-yu-fa-bian-liang-yu-huan-cun.html</id>
+    <published>2022-11-08T03:02:24.000Z</published>
+    <updated>2022-11-08T03:35:25.773Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="make" scheme="https://www.yilongdong.top/tags/make/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cmake系统学习:2.1 cmake主要语法</title>
+    <link href="https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-2-1-cmake-zhu-yao-yu-fa.html"/>
+    <id>https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-2-1-cmake-zhu-yao-yu-fa.html</id>
+    <published>2022-11-07T13:24:57.000Z</published>
+    <updated>2022-11-08T03:01:26.314Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;if流程控制&quot;&gt;&lt;a href=&quot;#if流程控制&quot; class=&quot;headerlink&quot; title=&quot;if流程控制&quot;&gt;&lt;/a&gt;if流程控制&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cmake系统学习:2 常用功能</title>
+    <link href="https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-2-chang-yong-gong-neng.html"/>
+    <id>https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-2-chang-yong-gong-neng.html</id>
+    <published>2022-11-07T12:41:22.000Z</published>
+    <updated>2022-11-07T13:21:50.535Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;!-- markdownlint-disable MD041 MD002--&gt;
+
+&lt;h1 id=&quot;cmake常用功能&quot;&gt;&lt;a href=&quot;#cmake常用功能&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="cmake" scheme="https://www.yilongdong.top/tags/cmake/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cmake系统学习:1 注释,message,set,include</title>
+    <link href="https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-1-zhu-shi-yu-message-he-set.html"/>
+    <id>https://www.yilongdong.top/post/cmake-xi-tong-xue-xi-1-zhu-shi-yu-message-he-set.html</id>
+    <published>2022-11-07T11:26:22.000Z</published>
+    <updated>2022-11-07T12:40:05.179Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;cmake基础&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="cmake" scheme="https://www.yilongdong.top/tags/cmake/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>音视频很好的链接</title>
+    <link href="https://www.yilongdong.top/post/yin-shi-pin-hen-hao-de-lian-jie.html"/>
+    <id>https://www.yilongdong.top/post/yin-shi-pin-hen-hao-de-lian-jie.html</id>
+    <published>2022-11-05T15:41:47.000Z</published>
+    <updated>2022-11-05T15:55:29.838Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;点击阅读前文前, 首页能看到的文章的简短描述&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://www.yilongdong.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OpenGL" scheme="https://www.yilongdong.top/tags/OpenGL/"/>
+    
+    <category term="ffmpeg" scheme="https://www.yilongdong.top/tags/ffmpeg/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git rebase使用</title>
-    <link href="https://www.yilongdong.top/2022/11/03/git-rebase-shi-yong/"/>
-    <id>https://www.yilongdong.top/2022/11/03/git-rebase-shi-yong/</id>
+    <link href="https://www.yilongdong.top/post/git-rebase-shi-yong.html"/>
+    <id>https://www.yilongdong.top/post/git-rebase-shi-yong.html</id>
     <published>2022-11-03T14:10:26.000Z</published>
     <updated>2022-11-03T14:25:50.659Z</updated>
     
@@ -37,8 +310,8 @@
   
   <entry>
     <title>git commit规范</title>
-    <link href="https://www.yilongdong.top/2022/11/03/git-commit-gui-fan/"/>
-    <id>https://www.yilongdong.top/2022/11/03/git-commit-gui-fan/</id>
+    <link href="https://www.yilongdong.top/post/git-commit-gui-fan.html"/>
+    <id>https://www.yilongdong.top/post/git-commit-gui-fan.html</id>
     <published>2022-11-03T13:12:55.000Z</published>
     <updated>2022-11-03T14:01:10.110Z</updated>
     
@@ -56,8 +329,8 @@
   
   <entry>
     <title>git worktree使用</title>
-    <link href="https://www.yilongdong.top/2022/11/03/git-worktree-shi-yong/"/>
-    <id>https://www.yilongdong.top/2022/11/03/git-worktree-shi-yong/</id>
+    <link href="https://www.yilongdong.top/post/git-worktree-shi-yong.html"/>
+    <id>https://www.yilongdong.top/post/git-worktree-shi-yong.html</id>
     <published>2022-11-03T08:24:51.000Z</published>
     <updated>2022-11-03T14:25:46.351Z</updated>
     
@@ -75,8 +348,8 @@
   
   <entry>
     <title>clang 编译链接</title>
-    <link href="https://www.yilongdong.top/2022/11/03/clang-bian-yi-lian-jie/"/>
-    <id>https://www.yilongdong.top/2022/11/03/clang-bian-yi-lian-jie/</id>
+    <link href="https://www.yilongdong.top/post/clang-bian-yi-lian-jie.html"/>
+    <id>https://www.yilongdong.top/post/clang-bian-yi-lian-jie.html</id>
     <published>2022-11-03T01:02:21.000Z</published>
     <updated>2022-11-03T02:26:01.457Z</updated>
     
@@ -94,8 +367,8 @@
   
   <entry>
     <title>CMake Cookbook 第二章: 检测环境</title>
-    <link href="https://www.yilongdong.top/2022/10/31/cmake-cookbook-di-er-zhang-jian-ce-huan-jing/"/>
-    <id>https://www.yilongdong.top/2022/10/31/cmake-cookbook-di-er-zhang-jian-ce-huan-jing/</id>
+    <link href="https://www.yilongdong.top/post/cmake-cookbook-di-er-zhang-jian-ce-huan-jing.html"/>
+    <id>https://www.yilongdong.top/post/cmake-cookbook-di-er-zhang-jian-ce-huan-jing.html</id>
     <published>2022-10-31T14:29:40.000Z</published>
     <updated>2022-10-31T14:53:40.028Z</updated>
     
@@ -113,10 +386,10 @@
   
   <entry>
     <title>CMake Cookbook 第一章：从可执行文件到库</title>
-    <link href="https://www.yilongdong.top/2022/10/31/cmake-cookbook-di-yi-zhang-cong-ke-zhi-xing-wen-jian-dao-ku/"/>
-    <id>https://www.yilongdong.top/2022/10/31/cmake-cookbook-di-yi-zhang-cong-ke-zhi-xing-wen-jian-dao-ku/</id>
+    <link href="https://www.yilongdong.top/post/cmake-cookbook-di-yi-zhang-cong-ke-zhi-xing-wen-jian-dao-ku.html"/>
+    <id>https://www.yilongdong.top/post/cmake-cookbook-di-yi-zhang-cong-ke-zhi-xing-wen-jian-dao-ku.html</id>
     <published>2022-10-31T13:15:36.000Z</published>
-    <updated>2022-10-31T14:31:16.921Z</updated>
+    <updated>2022-11-07T07:37:50.157Z</updated>
     
     
     <summary type="html">&lt;p&gt;CMake Cookbook 第一章：从可执行文件到库&lt;/p&gt;</summary>
@@ -132,8 +405,8 @@
   
   <entry>
     <title>Javascript学习 基础</title>
-    <link href="https://www.yilongdong.top/2022/10/30/javascript-xue-xi-ji-chu/"/>
-    <id>https://www.yilongdong.top/2022/10/30/javascript-xue-xi-ji-chu/</id>
+    <link href="https://www.yilongdong.top/post/javascript-xue-xi-ji-chu.html"/>
+    <id>https://www.yilongdong.top/post/javascript-xue-xi-ji-chu.html</id>
     <published>2022-10-30T15:10:11.000Z</published>
     <updated>2022-11-03T14:54:36.706Z</updated>
     
@@ -146,23 +419,6 @@
     
     
     <category term="Javascript" scheme="https://www.yilongdong.top/tags/Javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建个人博客</title>
-    <link href="https://www.yilongdong.top/2022/10/30/da-jian-ge-ren-bo-ke/"/>
-    <id>https://www.yilongdong.top/2022/10/30/da-jian-ge-ren-bo-ke/</id>
-    <published>2022-10-30T02:54:58.000Z</published>
-    <updated>2022-10-31T15:09:00.833Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;博客制作教程：typora图床 + 域名与github部署 + 博客样式&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="教程" scheme="https://www.yilongdong.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
